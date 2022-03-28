@@ -52,9 +52,9 @@ python test.py config/ThunderNet.py weights/epoch_80.pth --eval bbox
 
 ## Results (COCO test-dev2017)
 
-| input shape | bbox_mAP | bbox_mAP_50 | bbox_mAP_75 |
-| :---: | :---: | :---: | :---: |
-| 320*320 | 23.6 | 39.4 | 24.3 |
+| backbone | input shape | bbox_mAP | bbox_mAP_50 | bbox_mAP_75 |
+| :---: | :---: | :---: | :---: | :---: |
+| SNet146 | 320*320 | 23.6 | 39.4 | 24.3 |
 
 
 ## Citation
