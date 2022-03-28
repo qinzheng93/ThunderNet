@@ -22,7 +22,7 @@ mmcv==1.3.17
 Please run the following commands for installation.
 
 ```bash
-cd ThunderNet/thundernet/PSROIAlign
+cd thundernet/PSROIAlign
 sh ./build.sh
 ```
 
