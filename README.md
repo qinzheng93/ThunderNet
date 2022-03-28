@@ -45,7 +45,7 @@ python train.py config/ThunderNet.py
 **2. Testing**
 
 ```shell
-python test.py config/ThunderNet.py YOUR_MODEL_PATH --eval bbox
+python test.py config/ThunderNet.py weights/epoch_80.pth --eval bbox
 ```
 
 ## Results (COCO test-dev2017)
