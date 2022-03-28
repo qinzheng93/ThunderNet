@@ -12,7 +12,7 @@ from torch.autograd import Function
 from torch.autograd.function import once_differentiable
 import importlib
 
-_C = importlib.import_module('PSROIAlign._C')
+_C = importlib.import_module('thundernet.PSROIAlign._C')
 
 
 class _PSROIAlign(Function):
