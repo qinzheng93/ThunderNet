@@ -14,8 +14,10 @@ Real-time generic object detection on mobile platforms is a crucial but challeng
 
 ## Requirements
 
+```bash
 mmdet==2.18.1
 mmcv==1.3.17
+```
 
 ## Installation
 
@@ -74,4 +76,6 @@ If you find this repo useful in your research, please consider cite our work:
 - [MMCV](https://github.com/open-mmlab/mmcv) & [MMDetection](https://github.com/open-mmlab/mmdetection).
 - [ShuffleNetV2](https://github.com/megvii-model/ShuffleNet-Series/tree/master/ShuffleNetV2).
 - [PSROIAlign Implementation](https://github.com/McDo/PSROIAlign-Multi-Batch-PyTorch).
-- [Light-head RCNN](https://github.com/zengarden/light_head_rcnn)
+- [Light-head RCNN](https://github.com/zengarden/light_head_rcnn).
+- [Jiayuan Zhuang](https://github.com/alpc128) for code implementation and reproduction.
+
